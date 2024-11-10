@@ -52,7 +52,7 @@ def math_quiz():
     print("You will be presented with math problems, and you need to provide the correct answers.")
 
     for _ in range(number_of_questions):
-        n1 = select_random_integer_func(1, 10); n2 = select_random_integer_func(1, 5.5); o = select_random_opertaor_func()
+        n1 = select_random_integer_func(1, 10); n2 = select_random_integer_func(1, 10); o = select_random_opertaor_func()
 
         PROBLEM, ANSWER = get_problem_and_output(n1, n2, o)
         print(f"\nQuestion: {PROBLEM}")
